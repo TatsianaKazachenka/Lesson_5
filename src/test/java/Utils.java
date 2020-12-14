@@ -7,7 +7,7 @@ public class Utils {
         System.setProperty("webdriver.chrome.driver", "src/test/resources/chromedriver.exe");
     }
 
-    public void setSite(WebDriver driver, String site){
+    public void openSite(WebDriver driver, String site){
         driver.get(site);
     }
 

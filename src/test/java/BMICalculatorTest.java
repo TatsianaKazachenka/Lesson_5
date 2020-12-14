@@ -36,7 +36,7 @@ public class BMICalculatorTest {
         utils.setPropertyDriver();
         WebDriver driver = new ChromeDriver();
         //1. open site https://healthunify.com/bmicalculator/
-        utils.setSite(driver, Constants.SITE);
+        utils.openSite(driver, Constants.SITE);
         //2. enter 80 in weight field
         utils.setValueByElementName(driver, Constants.WEIGHT_NAME, weightValue);
         //3. enter 180 in height field
